@@ -27,9 +27,27 @@
 
 4. Stack
 
+	Last in, first out
+	Push/pop/peek are cheap O(1)
+	Search expensive O(n)
+	Indexed access expensive O(n)
+	Commonly used to keep track of previous steps in an algorithm.
+	(backtracking e.g. Maze Runner)
+	Helpful when writing iterative version of a recursive algorithm.
+
 5. Queue
 
+	First in, first out
+	Enqueue/dequeue/peek are cheap O(1)
+	Search and indexed access expensive O(n)
+	LRU cache, Tree BFS, Graph shortest path BFS, etc.
+
 6. Tree
+
+	Parent-child relationship
+	Tree traversal can be: Depth-first or Breadth-first
+	Depth first search can be: pre-order, in-order, post-order depending on when we pass the root
+	
 
 7. Heap
 
