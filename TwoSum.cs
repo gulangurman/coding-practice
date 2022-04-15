@@ -54,7 +54,7 @@ public static partial class Solution {
         }
         return null;
     }
-    public int[] TwoSumALittleFaster(int[] nums, int target) { 
+    public static int[] TwoSumALittleFaster(int[] nums, int target) { 
         Dictionary<int,int> map = new Dictionary<int,int>();
         for(int i=0;i<nums.Length;i++){
             map[nums[i]]=i;

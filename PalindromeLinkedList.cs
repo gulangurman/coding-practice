@@ -29,14 +29,7 @@ Follow up: Could you do it in O(n) time and O(1) space?
  * }
  */
  public static partial class Solution {
-	  class ListNode {
-	      public int val;
-	      public ListNode next;
-	      public ListNode(int val=0, ListNode next=null) {
-	          this.val = val;
-	          this.next = next;
-	      }
-	  }
+	  
     public static bool IsPalindrome(ListNode head) {
         List<int> values = new List<int>();
         ListNode current=head;

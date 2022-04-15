@@ -25,14 +25,7 @@ The number of nodes in the list is in the range [1, 100].
 */
 
 public static partial class Solution {
-	public class ListNode {
-	     public int val;
-	     public ListNode next;
-	     public ListNode(int val=0, ListNode next=null) {
-	         this.val = val;
-	         this.next = next;
-	      }
-	  }
+	 
     public static ListNode MiddleNode(ListNode head) {
         ListNode current = head;
         int count=0;

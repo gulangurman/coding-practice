@@ -33,7 +33,8 @@ Issues:
 
 Improves efficiency of recursive algorithms by re-using solutions to subproblems. 
 Think of it like caching previous results.
-Helps reduce running time from exponential to linear. Downside is that it uses a lot of memory to cache results.
+Helps reduce running time from exponential to linear. 
+Downside is that it uses a lot of memory to cache results.
 
 How to save sub-solutions:
 * Tabulation: Bottom-up approach. Works faster.

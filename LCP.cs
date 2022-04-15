@@ -23,7 +23,7 @@ strs[i] consists of only lower-case English letters.
 */
 public static partial class Solution {
     public static string LongestCommonPrefix(string[] strs) {
-        StringBuilder sb = new StringBuilder();
+        var sb = new System.Text.StringBuilder();
         int i=0;
         string first = strs[0];
         if(first.Length==0) return "";

@@ -22,7 +22,7 @@ Constraints:
 1 <= nums.length <= 105
 -109 <= nums[i] <= 109
 */
-public partial static class Solution {
+public static partial class Solution {
     public static bool ContainsDuplicate(int[] nums) {
         HashSet<int> seen = new HashSet<int>();
         foreach(int num in nums){
