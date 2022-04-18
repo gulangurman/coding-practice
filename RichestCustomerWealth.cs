@@ -37,7 +37,7 @@ n == accounts[i].length
 1 <= m, n <= 50
 1 <= accounts[i][j] <= 100
 */
-public static partial class Solution {
+public partial class Solution {
     public static int MaximumWealth(int[][] accounts) {
         int max=0;        
         for(int i=0; i<accounts.Length;i++){

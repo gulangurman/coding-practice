@@ -25,7 +25,7 @@ Constraints:
 t.length == s.length
 s and t consist of any valid ascii character.
 */
-public static partial class Solution {
+public partial class Solution {
     public static bool IsIsomorphic(string s, string t) {
         Dictionary<char,char> map = new Dictionary<char,char>();         
         for(int i=0; i<s.Length; i++){            

@@ -28,7 +28,7 @@ Follow up: Could you do it in O(n) time and O(1) space?
  *     }
  * }
  */
- public static partial class Solution {
+ public partial class Solution {
 	  
     public static bool IsPalindrome(ListNode head) {
         List<int> values = new List<int>();

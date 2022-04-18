@@ -30,7 +30,7 @@ Constraints:
 1 <= s.length, goal.length <= 2 * 104
 s and goal consist of lowercase letters.
 */
-public static partial class Solution {
+public partial class Solution {
     public static bool BuddyStrings(string s, string goal) {
         if(s.Length != goal.Length || s.Length==1) return false;
         if(s == goal){

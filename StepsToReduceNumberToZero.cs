@@ -37,7 +37,7 @@ Constraints:
 
 0 <= num <= 106
 */
-public static partial class Solution {
+public partial class Solution {
     public static int NumberOfSteps(int num) {
         int steps=0;
         while(num>0){

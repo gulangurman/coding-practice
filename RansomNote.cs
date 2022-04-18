@@ -24,7 +24,7 @@ Constraints:
 ransomNote and magazine consist of lowercase English letters.
 */
 
-public static partial class Solution {
+public partial class Solution {
     public static bool CanConstruct(string ransomNote, string magazine) {
         Dictionary<char,int> rChars = new Dictionary<char, int>();
         foreach(char c in ransomNote){

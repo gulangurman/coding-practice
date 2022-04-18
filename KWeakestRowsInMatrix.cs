@@ -56,7 +56,7 @@ n == mat[i].length
 matrix[i][j] is either 0 or 1.
 */
 
-public static partial class Solution {
+public partial class Solution {
     public static int[] KWeakestRows(int[][] mat, int k) {
         List<int> weakest = new List<int>();        
         int col=0;

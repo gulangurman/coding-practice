@@ -46,7 +46,7 @@ s contains only the characters ('I', 'V', 'X', 'L', 'C', 'D', 'M').
 It is guaranteed that s is a valid roman numeral in the range [1, 3999].
 
 */
-public static partial class Solution {
+public partial class Solution {
     public static int RomanToInt(string s) {
         Dictionary<char,int> intValues = new Dictionary<char,int>();
         intValues.Add('I',1);

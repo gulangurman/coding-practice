@@ -36,6 +36,10 @@ Think of it like caching previous results.
 Helps reduce running time from exponential to linear. 
 Downside is that it uses a lot of memory to cache results.
 
+Generally used in optimization or counting type problems:
+* An optimization problem is the problem of finding the best solution from all feasible solutions. Solutions can be integers, permutations, or aspects of a graph, etc.
+* Counting problem is the problem of finding the number of elements of some set with a particular property. E.g. counting cycles or spanning trees in a graph, etc.
+
 How to save sub-solutions:
 * Tabulation: Bottom-up approach. Works faster.
 * Memoization: Top-down approach. Easier to write.

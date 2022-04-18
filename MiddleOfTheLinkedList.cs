@@ -24,7 +24,7 @@ The number of nodes in the list is in the range [1, 100].
 1 <= Node.val <= 100
 */
 
-public static partial class Solution {
+public partial class Solution {
 	 
     public static ListNode MiddleNode(ListNode head) {
         ListNode current = head;

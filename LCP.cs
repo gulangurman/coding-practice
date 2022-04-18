@@ -21,7 +21,7 @@ Constraints:
 0 <= strs[i].length <= 200
 strs[i] consists of only lower-case English letters.
 */
-public static partial class Solution {
+public partial class Solution {
     public static string LongestCommonPrefix(string[] strs) {
         var sb = new System.Text.StringBuilder();
         int i=0;

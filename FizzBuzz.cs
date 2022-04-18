@@ -29,7 +29,7 @@ Constraints:
 1 <= n <= 104
 */
 
-public static partial class Solution {
+public partial class Solution {
     public static IList<string> FizzBuzz(int n) {
         string[] answer = new string[n];
         for(int i=1;i<=n;i++){
