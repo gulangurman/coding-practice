@@ -23,12 +23,12 @@ The number of the nodes in the tree is in the range [0, 100].
 Follow up: Recursive solution is trivial, could you do it iteratively?
 */
 public class BinaryTreePostorderTraversal {
-    public static IList<int> PostorderTraversal(TreeNode root) {
+    public static IList<int> PostorderTraversal(BinaryTreeNode root) {
         List<int> result = new List<int>();
       traverse(root, result);
       return result;
     }
-  private static void traverse(TreeNode current, List<int> result){
+  private static void traverse(BinaryTreeNode current, List<int> result){
     if(current==null) return;
     traverse(current.left, result);
     traverse(current.right, result);

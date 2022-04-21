@@ -15,7 +15,7 @@ public class Fibonacci{
 	{
 		if(memo.ContainsKey(n)) return memo[n];
 		if(n==0 || n==1){ memo[n]=n; return n; }
-		memo[n] = fib(n-1, memo) + fib(n-2, memo);
+		memo[n] = FibonacciDPTopDown(n-1, memo) + FibonacciDPTopDown(n-2, memo);
 		return memo[n];	
 	}
 	// Tabulation : fill the table to solve
